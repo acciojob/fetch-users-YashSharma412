@@ -1,1 +1,61 @@
+.disp_flex_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td{
+    width: 25%;
+    padding: 5px;
+
+}
+
+th{
+    text-align: start;
+    padding: 5px;
+    background-color: #2d3335;
+    color: white;
+}
+th:last-child{
+    text-align: center;
+}
+/* 
+thead{
+    background-color: #2d3335;
+    color: white;
+} */
+
+
+
+.btn{
+    background-color: #12778a;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.err_msg{
+    padding-top: 15px;
+    text-align: center;
+}
+
+tbody tr{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+img{
+    margin: auto;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
